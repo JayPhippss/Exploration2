@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase Web App</title>
+</head>
+<body>
+	<div class="mainDiv">
+		<h1>FireBase Web App<h1>
+		<textarea id="mainText" placeholder="Enter Text Here..."></textarea>
+		<button id="submitBtn" onclick="submitClick()"><i class="fa fa-arrow-right"></i>ClickMe</button>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBgwmvU3OOPFs2kSoFcZpiHJdYl_FwMllw",
+    authDomain: "exploration2-f4664.firebaseapp.com",
+    databaseURL: "https://exploration2-f4664.firebaseio.com",
+    projectId: "exploration2-f4664",
+    storageBucket: "exploration2-f4664.appspot.com",
+    messagingSenderId: "513220966927"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
